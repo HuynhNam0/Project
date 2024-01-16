@@ -2,8 +2,14 @@ const courses = ["Developers", "designers", "founders"];
 const handles = document.querySelectorAll(".handle__left--button__top");
 const numbers = document.querySelectorAll(".number");
 const typing = document.getElementById("typing");
+const slides = document.querySelectorAll(".slider__images--item");
+const slider = document.querySelector(".slider");
+const imagesContainer = document.querySelector(".slider__images--items");
+console.log(slides);
+var counter = 0;
 var maxNumber = 100;
 
+// Typing
 const addTyping = (arr) => {
   const typingPromises = arr.map((course, index) => {
     return new Promise((resolve) => {
@@ -39,22 +45,17 @@ const resetText = () => {
 addTyping(courses);
 
 //slide show
-const slides = document.querySelectorAll(" .slider__images--item");
-console.log(slides);
-var counter = 0;
-
 slides.forEach((slide, index) => {
   slide.style.left = `${index * 100}%`;
 });
 
-const goPrev = () => {
-  counter--;
+const goNext = () => {
+  counter = (counter + 1) % 2;
   slideImage();
 };
 
-const goNext = () => {
-  counter++;
-  slideImage();
+const goPrev = () => {
+  counter = (counter - 1 + 2) % 2;
 };
 
 const slideImage = () => {
@@ -62,12 +63,11 @@ const slideImage = () => {
     slide.style.transform = `translateX(-${counter * 100}%)`;
   });
 };
-
+//
 function addNumber() {
   numbers.forEach((number) => {
     let startNumber = 29;
     let endNumber = parseInt(number.getAttribute("data-val"));
-    // let duration = Math.floor(maxNumber / endNumber);
     setTimeout(() => {});
     let counter = setInterval(function () {
       startNumber += 1;

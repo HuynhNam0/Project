@@ -10,8 +10,8 @@
 }
 
 body {
-    // width: 100vw;
-    // height: 100vh;
+    width: 100vw;
+    height: 100vh;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -237,7 +237,6 @@ main {
         }
     }
     .list {
-        // background-color: rgba(0, 0, 0, .1);
         padding-top: 6rem;
         .list__items {
             display: flex;
@@ -441,7 +440,6 @@ main {
                     line-height: 1.5rem;
                     margin: 1rem 0;
                 }
-                // margin-bottom: 4rem;
             }
             .slider__images--items {
                 display: flex;
@@ -469,7 +467,7 @@ main {
                             text-align: center;
                             margin: 2rem 4rem;
                             p {
-                                color: #506690;
+                                color: $nav-color;
                                 font-size: 1rem;
                                 margin: 1rem 0;
                             }
@@ -523,10 +521,10 @@ main {
                 span {
                     font-weight: 400;
                     font-size: 1.8rem;
-                    color: #335eea;
+                    color: $main-color;
                 }
                 p {
-                    color: #506690;
+                    color: $nav-color;
                     font-size: 1rem;
                     line-height: 1.2rem;
                     margin: 1rem 0;
@@ -625,8 +623,6 @@ main {
             }
             .pricing__standards {
                 display: flex;
-                // align-items: center;
-                // flex-direction: row;
                 justify-content: space-between;
                 .pricing__standard {
                     background-color: #fff;
@@ -642,7 +638,7 @@ main {
                             font-weight: 400;
                             padding: 0.5rem 1rem;
                             background-color: rgba(51, 94, 234, 0.08);
-                            color: #335eea;
+                            color: $main-color;
                             border-radius: 1rem;
                         }
                     }
@@ -706,7 +702,7 @@ main {
                             color: #fff;
                             font-size: 1.2rem;
                             font-weight: bold;
-                            background-color: #335eea;
+                            background-color: $main-color;
                         }
                     }
                 }
@@ -724,7 +720,7 @@ main {
                             font-weight: 400;
                             padding: 0.5rem 1rem;
                             background-color: rgba(51, 94, 234, 0.08);
-                            color: #335eea;
+                            color: $main-color;
                             border-radius: 1rem;
                         }
                     }
@@ -744,7 +740,7 @@ main {
                         color: #000;
                         font-size: 1.2rem;
                         font-weight: bold;
-                        background-color: #869ab8;
+                        background-color: $content-color;
                     }
                 }
             }
@@ -790,7 +786,7 @@ main {
                             padding-bottom: 1rem;
                         }
                         p {
-                            color: #506690;
+                            color: $nav-color;
                             padding-right: 1.4rem;
                         }
                     }
@@ -830,7 +826,7 @@ main {
                     color: #FFFFFF;
                     border: none;
                     border-radius: 5px;
-                    background-color: #42ba96;
+                    background-color: $header-color;
                 }
             }
         }
