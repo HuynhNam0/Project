@@ -1,0 +1,23 @@
+//Mobile....................................................Mobile//
+.container {
+    max-width: 800px;
+}
+
+@media only screen and (min-width:394px) and (max-width: 800px) {
+    li {
+        display: none;
+    }
+    .header__inner {
+        button {
+            display: none;
+        }
+    }
+    .header__checkbox {
+        display: flex;
+        margin: auto 0;
+        font-size: 1.5rem;
+        #check {
+            display: none;
+        }
+    }
+}

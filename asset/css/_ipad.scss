@@ -1,0 +1,121 @@
+//Ipad....................................................Ipad//
+.container {
+    max-width: 1024px;
+}
+
+@media only screen and (min-width: 801px) and (max-width:1023px) {
+    // .header__inner {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     margin-top: 1rem;
+    //     cursor: pointer;
+    //     .image {
+    //         p {
+    //             font-weight: bold;
+    //             font-size: 1.6rem;
+    //             color: $main-color;
+    //             padding: 0.55rem;
+    //         }
+    //     }
+    //     .menu__bar {
+    //         .menu__bar--list {
+    //             display: flex;
+    //             li {
+    //                 font-size: 1rem;
+    //                 list-style-type: none;
+    //                 padding: 0.8rem 1.6rem;
+    //                 .menu__bar--items__container {
+    //                     display: none;
+    //                     position: absolute;
+    //                     // z-index: 100;
+    //                     left: 15%;
+    //                     top: 68px;
+    //                     .menu__bar--items {
+    //                         display: flex;
+    //                         border-radius: 10px;
+    //                         box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+    //                         background-color: #FFFFFF;
+    //                         overflow: hidden;
+    //                         width: 750px;
+    //                         .menu__bar--item__content {
+    //                             display: flex;
+    //                             align-items: center;
+    //                             justify-content: center;
+    //                             background: url(/image/photo-3.jpeg) center / cover no-repeat;
+    //                             width: 50%;
+    //                             position: relative;
+    //                             .menu__bar--item__content--title {
+    //                                 position: absolute;
+    //                                 text-align: center;
+    //                                 h4 {
+    //                                     font-size: 1.6rem;
+    //                                     color: #fff;
+    //                                 }
+    //                                 p {
+    //                                     color: #fff;
+    //                                 }
+    //                                 button {
+    //                                     margin-top: 1rem;
+    //                                     padding: 0.8rem;
+    //                                     border-radius: 10px;
+    //                                     border: none;
+    //                                     color: $main-color;
+    //                                     font-size: 1.2rem;
+    //                                     cursor: pointer;
+    //                                 }
+    //                             }
+    //                         }
+    //                         .menu__bar--item {
+    //                             display: flex;
+    //                             gap: 50px;
+    //                             padding: 1.6rem 3.6rem;
+    //                             .menu__bar--content {
+    //                                 width: 50%;
+    //                                 h6 {
+    //                                     color: $main-color;
+    //                                     font-size: 1.4rem;
+    //                                 }
+    //                                 p {
+    //                                     font-size: 1rem;
+    //                                     padding: 0.5rem 0;
+    //                                 }
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //             .item:hover .menu__bar--items__container {
+    //                 display: block;
+    //             }
+    //             a {
+    //                 color: $nav-color;
+    //                 text-decoration: none;
+    //             }
+    //         }
+    //     }
+    //     .button {
+    //         button {
+    //             padding: 0.8rem;
+    //             background-color: $main-color;
+    //             border: 1px solid $main-color;
+    //             border-radius: 10px;
+    //             color: #fff;
+    //             font-weight: bold;
+    //             cursor: pointer;
+    //         }
+    //         &:hover {
+    //             transition: all 1s;
+    //             transform: translateY(-5px);
+    //         }
+    //     }
+    // label {
+    //     display: none;
+    // }
+    // .header__checkbox {
+    //     display: none;
+    // }
+    // .checkbox {
+    //     display: none;
+    // }
+    // }
+}
